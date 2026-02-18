@@ -1,4 +1,4 @@
-fonction infosEtudiant (nom, note){
+function infosEtudiant (nom, note){
     if (note >= 10){
         return nom + " : " + note + "/20 => Admis";
     }
@@ -6,4 +6,4 @@ fonction infosEtudiant (nom, note){
         return nom + " : " + note + "/20 => Ajourné"; 
     }
 }
-console.log(infosEtudiant("Salma" , 16));
+console.log(infosEtudiant("Hiba" , 14));
